@@ -58,7 +58,7 @@ btnScrollToTop.addEventListener("click", function () {
   });
 });
 
-GitHubCalendar(".calendar", "hasbealam", { responsive: true });
+GitHubCalendar(".calendar", "Mohibkhan", { responsive: true });
 
 // Resume
 var resumeLink = document.querySelector("#resume-button-1");
