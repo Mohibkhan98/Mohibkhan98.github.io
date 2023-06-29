@@ -61,7 +61,7 @@ btnScrollToTop.addEventListener("click", function () {
 GitHubCalendar(".calendar", "Mohibkhan", { responsive: true });
 
 // Resume
-var resumeLink = document.querySelector("#resume-button-1");
+var resumeLink = document.querySelector("#resume-link-1");
 resumeLink.addEventListener("click", function (event) {
   event.preventDefault();
   window.open(
@@ -75,7 +75,7 @@ resumeLink.addEventListener("click", function (event) {
   link.click();
 });
 
-var resumeLink = document.querySelector("#resume-button-2");
+var resumeLink = document.querySelector("#resume-link-2");
 resumeLink.addEventListener("click", function (event) {
   event.preventDefault();
   window.open(
