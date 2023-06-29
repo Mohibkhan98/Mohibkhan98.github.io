@@ -64,27 +64,27 @@ GitHubCalendar(".calendar", "Mohibkhan", { responsive: true });
 var resumeLink = document.querySelector("#resume-button-1");
 resumeLink.addEventListener("click", function (event) {
   event.preventDefault();
-  // window.open(
-  //   "https://drive.google.com/drive/u/0/my-drive",
-  //   "_blank"
-  // );
+  window.open(
+    "https://drive.google.com/drive/u/0/my-drive",
+    "_blank"
+  );
   let link = document.createElement("a");
   link.href =
-    "https://drive.google.com/file/d/1whEdDExeqS3LFsKVOZ4Bvv9JAYSPkdQP/view?usp=sharing";
-  link.download = "MUTAYYAB-MOHIB-KHAN";
+    "https://drive.google.com/uc?export=download&id=1NIzIEpbnQrmZIUrpaYxwuB69VsguRb-4";
+  link.download = "MUTAYYAB-MOHIB-RESUME";
   link.click();
 });
 
 var resumeLink = document.querySelector("#resume-button-2");
 resumeLink.addEventListener("click", function (event) {
   event.preventDefault();
-  // window.open(
-  //   "https://drive.google.com/drive/u/0/my-drive",
-  //   "_blank"
-  // );
+  window.open(
+    "https://drive.google.com/drive/u/0/my-drive",
+    "_blank"
+  );
   let link = document.createElement("a");
   link.href =
-    "https://drive.google.com/file/d/1whEdDExeqS3LFsKVOZ4Bvv9JAYSPkdQP/view?usp=sharing";
-  link.download = "MUTAYYAB-MOHIB-KHAN";
+    "https://drive.google.com/uc?export=download&id=1NIzIEpbnQrmZIUrpaYxwuB69VsguRb-4";
+  link.download = "MUTAYYAB-MOHIB-RESUME";
   link.click();
 });
