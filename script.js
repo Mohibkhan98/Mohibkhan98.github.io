@@ -65,7 +65,7 @@ var resumeLink = document.querySelector("#resume-button-1");
 resumeLink.addEventListener("click", function (event) {
   event.preventDefault();
   window.open(
-    "https://drive.google.com/drive/u/0/my-drive",
+    "https://drive.google.com/file/d/1NIzIEpbnQrmZIUrpaYxwuB69VsguRb-4/view?usp=sharing",
     "_blank"
   );
   let link = document.createElement("a");
@@ -79,7 +79,7 @@ var resumeLink = document.querySelector("#resume-button-2");
 resumeLink.addEventListener("click", function (event) {
   event.preventDefault();
   window.open(
-    "https://drive.google.com/drive/u/0/my-drive",
+    "https://drive.google.com/file/d/1NIzIEpbnQrmZIUrpaYxwuB69VsguRb-4/view?usp=sharing",
     "_blank"
   );
   let link = document.createElement("a");
